@@ -1,9 +1,11 @@
 import Cards from "../Cards/Cards";
+import Navbar from "../Navbar/Navbar";
 
 const Home = () => {
 
     return (
-        <div className="m-10">
+        <div>
+            <Navbar></Navbar>
             <Cards></Cards>
         </div>
     );
